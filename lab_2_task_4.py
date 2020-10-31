@@ -1,6 +1,11 @@
-a = int(input('Введите a'))
-i = 1
-d = 1
-
-while a > 1:
-    a = a - 1
+n = int(input())
+x = 1
+y = 1
+print(x)
+print(y, sep=" ")
+for i in range(3,n+1):
+    print(x+y, end=" ")
+    b = x
+    x = y
+    y = b+y
+    print()
