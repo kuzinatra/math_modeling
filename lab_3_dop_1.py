@@ -1,6 +1,6 @@
 import numpy as np
-N = 3
-M = 4
+N = int(input())
+M = int(input())
 
 A = np.ndarray (shape = (N,M))
 for i in range(N):
